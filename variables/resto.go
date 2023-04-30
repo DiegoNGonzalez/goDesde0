@@ -3,6 +3,7 @@ package variables
 import (
 	"fmt"
 	"time"
+	"strconv"
 )
 
 var Nombre string
@@ -20,4 +21,11 @@ func RestoVariables(){ //funcion arranca con mayuscula para poder ahcerla global
 	fmt.Println(Estado)
 	fmt.Println(Sueldo)
 	fmt.Println(Fecha)
+}
+
+func ConviertoATexto(numero int)(bool,string){
+
+	
+	texto := strconv.Itoa(numero)
+	return true, texto
 }
