@@ -3,7 +3,7 @@ package main
 import (
 	//"runtime"
 
-	"github.com/DiegoNGonzalez/goDesde0/iteraciones"
+	"github.com/DiegoNGonzalez/goDesde0/ejercicios"
 )
 
 func main(){
@@ -32,7 +32,8 @@ func main(){
 	numero, texto := ejercicios.ConvNumerico("500")
 	fmt.Println(numero)
 	fmt.Println(texto)
-	teclado.IngresoNumeros()*/
-	iteraciones.Iterar()
+	teclado.IngresoNumeros()
+	iteraciones.Iterar()*/
+	ejercicios.Multiplicador()
 
 }
