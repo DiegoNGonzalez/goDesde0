@@ -3,7 +3,7 @@ package main
 import (
 	//"runtime"
 
-	"github.com/DiegoNGonzalez/goDesde0/ejercicios"
+	"github.com/DiegoNGonzalez/goDesde0/files"
 )
 
 func main(){
@@ -33,7 +33,10 @@ func main(){
 	fmt.Println(numero)
 	fmt.Println(texto)
 	teclado.IngresoNumeros()
-	iteraciones.Iterar()*/
-	ejercicios.Multiplicador()
+	iteraciones.Iterar()*/ 
+	//fmt.Println(ejercicios.Multiplicador())
+	//files.GrabaTabla()
 
+	//files.SumaTabla()
+	files.LeoArchivo()
 }
