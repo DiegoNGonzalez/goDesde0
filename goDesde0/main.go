@@ -1,8 +1,7 @@
 package main
 
 import (
-	"github.com/diegoNGonzalez/goDesde0/ejercicios"
-	"fmt"
+	"github.com/diegoNGonzalez/goDesde0/teclado"
 )
 
 func main() {
@@ -27,8 +26,9 @@ func main() {
 		fmt.Println("This is Os X")
 	default:
 		fmt.Printf("%s. \n", os)
-	}*/
+	}
 	number, text := ejercicios.Exercise01("10")
 	fmt.Println("Number: ", number)
-	fmt.Println("Text: ", text)
+	fmt.Println("Text: ", text)*/
+	teclado.IngresoNumeros()
 }
