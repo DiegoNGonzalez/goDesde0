@@ -7,4 +7,5 @@ import (
 func main(){
 	fmt.Println("Hola Mundo")
 	variables.ShowInt()
+	variables.RestOfVariables()
 }
