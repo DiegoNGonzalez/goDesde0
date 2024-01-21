@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/diegoNGonzalez/goDesde0/teclado"
-)
+import "github.com/diegoNGonzalez/goDesde0/ejercicios"
 
 func main() {
 	/*fmt.Println("Hola Mundo")
@@ -29,6 +27,9 @@ func main() {
 	}
 	number, text := ejercicios.Exercise01("10")
 	fmt.Println("Number: ", number)
-	fmt.Println("Text: ", text)*/
+	fmt.Println("Text: ", text)
 	teclado.IngresoNumeros()
+
+	iteraciones.Iterar()*/
+	ejercicios.Exercise02()
 }
