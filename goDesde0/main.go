@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
-
+import (
+	"fmt" 
+	"github.com/diegoNGonzalez/goDesde0/variables"
+)
 func main(){
 	fmt.Println("Hola Mundo")
+	variables.ShowInt()
 }
