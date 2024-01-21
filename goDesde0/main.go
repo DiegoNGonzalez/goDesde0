@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/diegoNGonzalez/goDesde0/ejercicios"
 	"fmt"
-	"runtime"
 )
 
 func main() {
@@ -13,7 +13,7 @@ func main() {
 	fmt.Println("State: ", state)
 	fmt.Println("Text convert: ", text)*/
 
-	if os := runtime.GOOS; os == "Linux." || os == "Os X. " {
+	/*if os := runtime.GOOS; os == "Linux." || os == "Os X. " {
 		fmt.Println("This doesn't is Windows")
 
 	} else {
@@ -27,5 +27,8 @@ func main() {
 		fmt.Println("This is Os X")
 	default:
 		fmt.Printf("%s. \n", os)
-	}
+	}*/
+	number, text := ejercicios.Exercise01("10")
+	fmt.Println("Number: ", number)
+	fmt.Println("Text: ", text)
 }
